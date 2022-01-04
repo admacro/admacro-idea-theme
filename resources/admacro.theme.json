@@ -1,0 +1,91 @@
+{
+  "name": "admacro",
+  "dark": false,
+  "author": "James Ni",
+  "editorScheme": "/admacro.xml",
+
+  "colors": {
+    "adm-bg": "#E8E3D9",
+    "adm-fg": "#000000",
+
+    "adm-red": "#970000",
+    "adm-magenta": "#8e005f",
+    "adm-orange": "#733900",
+    "adm-green": "#005600",
+    "adm-cyan": "#004d74",
+    "adm-blue": "#0000f5",
+    "adm-purple": "#7300ac",
+
+    "adm-red-bg": "#E8D9D9",
+    "adm-magenta-bg": "#E8D9E3",
+    "adm-orange-bg": "#E8E0D9",
+    "adm-green-bg": "#D9E8D9",
+    "adm-cyan-bg": "#D9E3E8",
+    "adm-blue-bg": "#D9D9E8",
+    "adm-purple-bg": "#E3D9E8",
+
+    "bg1": "#E0DACC",
+    "bg2": "#D7CEBC",
+    "bg3": "#CDC2AC",
+    "bg4": "#C4B79C",
+
+    "fg1": "#0F0F0F",
+    "fg2": "#1C1C1C",
+    "fg3": "#262626",
+    "fg4": "#303030",
+
+    "adm-red-gray": "#803F40",
+    "adm-magenta-gray": "#7F3F6A",
+    "adm-orange-gray": "#806040",
+    "adm-green-gray": "#408040",
+    "adm-cyan-gray": "#406A7F",
+    "adm-blue-gray": "#40407F",
+    "adm-purple-gray": "#6A407F",
+    "adm-bg-gray": "#816b40",
+    "adm-fg-gray": "#6C6C6C"
+  },
+  "ui": {
+    "*": {
+      "background": "bg1",
+      "hoverBackground": "bg2",
+
+      "lightSelectionBackground": "bg2",
+      "selectionBackground": "adm-orange-gray",
+      "selectionInactiveBackground": "bg2",
+
+      "borderColor": "bg3",
+      "separatorColor": "bg3",
+
+      "inactiveBackground": "bg2"
+    },
+
+    "ToolWindow.Header.background": "bg3",
+    "EditorPane.selectionBackground": "adm-red",
+
+    "CompletionPopup.selectionBackground": "bg2",
+    "CompletionPopup.selectionInactiveBackground": "bg1",
+
+    "Borders.color": "bg3",
+    "Borders.ContrastBorderColor": "bg3",
+
+    "Editor.background": "bg2",
+    "EditorTabs.underlineColor": "adm-orange-gray",
+    "EditorTabs.underlinedTabBackground": "adm-bg",
+
+    "TextArea.background": "adm-bg",
+    "TextField.background": "adm-bg",
+
+    "Button.startBackground": "bg2",
+    "Button.startBorderColor": "bg3",
+    "Button.endBackground": "bg2",
+    "Button.endBorderColor": "bg3",
+    "Button.default.startBackground": "adm-orange-gray",
+    "Button.default.startBorderColor": "adm-orange",
+    "Button.default.endBackground": "adm-orange-gray",
+    "Button.default.endBorderColor": "adm-orange",
+
+    "ComboBox.nonEditableBackground": "adm-bg",
+    "ComboBox.ArrowButton.nonEditableBackground": "adm-bg",
+    "ComboBox.disabledBackground": "bg1"
+  }
+}

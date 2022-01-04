@@ -1,0 +1,26 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>admacro</name>
+  <version>1.0</version>
+  <vendor email="admacro@gmail.com" url="http://www.admacro.xyz">ADMACRO</vendor>
+
+  <description><![CDATA[
+      Admacro UI theme and editor color theme.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      First publish.
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="173.0"/>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="8d10bd33-019e-45bd-adcd-727d1cd5957b" path="/admacro.theme.json"/>
+  </extensions>
+
+  <actions>
+  </actions>
+
+</idea-plugin>
